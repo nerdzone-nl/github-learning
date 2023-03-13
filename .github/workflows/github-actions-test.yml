@@ -1,1 +1,2 @@
-
+name: 'Update-zip'
+on: workflow_dispatch
