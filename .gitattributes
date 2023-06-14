@@ -1,5 +1,17 @@
-.github export-ignore
-.gitignore export-ignore
-.gitattributes export-ignore
-extra-info/extra-info-file-excluded.txt
-LICENSE export-ignore
+# These files are text and should be normalized (Convert crlf => lf)
+*.gitattributes text
+.gitignore      text
+*.md            text diff=markdown
+
+# Exclude files from exporting
+.gitattributes  export-ignore
+.gitignore      export-ignore
+.github         export-ignore
+
+# Enable syntax highlighting for files with `.gitattributes` extensions.
+#
+*.gitattributes linguist-language=gitattributes
+
+# Exclude the specific files
+/extra-info/extra-info-file-excluded.txt
+/LICENSE export-ignore
