@@ -13,5 +13,5 @@
 *.gitattributes linguist-language=gitattributes
 
 # Exclude the specific files
-/extra-info/extra-info-file-excluded.txt
+/extra-info/extra-info-file-excluded.txt  export-ignore
 /LICENSE export-ignore
